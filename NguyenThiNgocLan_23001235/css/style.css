@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(61, 126, 223, 0.486);
+}
+#logo{
+    width: 186px;
+    height: 86px;
+}
+#menuChinh{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+}
+#menuChinh li {
+    font-size: 1.2rem;
+    padding: 0 10px;
+    color: antiquewhite;
+}
+#menuChinh li:hover{
+    color: crimson;
+    cursor: pointer;
+}
+#khoi1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.anh{
+    width: 451px;
+    height: 286px;
+}
+
+#content{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#khoi2{
+    display: flex;
+  margin: 20px 29px 0 29px;
+}
+#khoi2__item1{
+    display: flex;
+    
+}
+#khoi3{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 30px 50px ;
+    font-weight: 300;
+}
+#khoi3 h1{
+    font-size: 20px;
+    color: rgb(9, 49, 180);
+    margin-bottom: 10px;
+}
+#khoi3 div{
+    
+}
+#iconGroup{
+    display: flex;
+}
+#khoi4{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+}
+#item1{
+    padding : 10px 0 5px 0;
+}
+#item2{
+    padding-bottom: 10px;
+}
+footer{
+    border-top: 1px solid rgba(100, 207, 211, 0.616);
+    background-color: rgb(222, 227, 238);
+}
+#btnMenu{
+    background-color: cornflowerblue;
+    outline: none;
+    border: none;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+}
+#btnMenu:hover{
+    cursor: pointer;
+    background-color: rgba(100, 148, 237, 0.89);
+}
+#menuFooter{
+    list-style: none;
+}
+#khoi2__item1{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(27, 26, 26);
+}
+#khoi2__item1 article{
+    padding: 10px;
+}
+#khoi2__item1 article h1{
+    color: rgb(69, 123, 184);
+}
+form{
+    min-width: 287px;
+    font-weight: 400;
+    color: rgb(29, 27, 27);
+}
+form div{
+    margin-bottom: 5px;
+}
+.input{
+ min-height: 26px;
+ border-radius: 5px;
+ border: 1px solid darkgrey;
+ width: 100%;
+}
+form label{
+    display: block;
+}
+#btnSubmit{
+    background-color: cadetblue;
+    border: none;
+    padding: 10px;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+
+#iconGroup div i{
+    padding: 8px;
+   color: rgb(44, 85, 221);
+}
+#iconGroup div{
+    border: 1px solid cadetblue;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#khoi3__item1{
+    max-width: 210px;
+}
+#menuFooter li{
+    padding: 5px;
+}
+#contact p{
+    padding: 8px;
+}
+#contact{
+    max-width: 200px;
+}
+#note{
+    font-size: 13px;
+}
